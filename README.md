@@ -17,3 +17,14 @@ springboot 를 처음다뤄보면서 수업때와는 또다른 느낌을 받았�
 겪은 만큼 성장했다고 생각됩니다.
 현황: html은 완성해논상태 , 멤버는 아직 수정중, 게시판은 다 만들었음, 댓글은 아직 확인못해봄, 쇼핑몰 이미지도 만들어야하는데...
 큰일이다
+DB: tablename= notice
+table object 공지사항/게시글 데이터가 저장된페이지
+name
+id int 
+reg_emp_no varchar(6)
+reg_dttm datetime
+upd_emp_no varchar(25)
+upd_dttm datetime
+category varchar(20)
+title varchar(200)
+content text 
